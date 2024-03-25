@@ -23,21 +23,21 @@ window.onscroll = () => {
    image1.classList.remove('scrollImg1')
   }
 
-  if(document.documentElement.scrollTop >1300 || document.body.scrollTop >1300)
+  if(document.documentElement.scrollTop >1450 || document.body.scrollTop >1450)
   {
    textb.classList.add('scrollTextb')
   }else{
    textb.classList.remove('scrollTextb')
   }
  
-  if(document.documentElement.scrollTop >1400 || document.body.scrollTop >1400)
+  if(document.documentElement.scrollTop >1550 || document.body.scrollTop >1550)
   {
    tb.classList.add('scrollTable')
   }else{
    tb.classList.remove('scrollTable')
   }
 
-  if(document.documentElement.scrollTop >1990 || document.body.scrollTop >1990)
+  if(document.documentElement.scrollTop >2000 || document.body.scrollTop >2000)
   {
     Cad.classList.add('scrollCard')
   }else{
